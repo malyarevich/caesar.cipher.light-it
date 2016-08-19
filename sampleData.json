@@ -1,0 +1,34 @@
+{
+	"cols": [
+				{"id":"","label":"Topping","pattern":"","type":"string"},
+				{"id":"","label":"Slices","pattern":"","type":"number"}
+			],
+	"rows": [
+				{"c":[{"v":"a","f":null},{"v":11,"f":null}]},
+				{"c":[{"v":"b","f":null},{"v":2,"f":null}]},
+				{"c":[{"v":"c","f":null},{"v":0,"f":null}]},
+				{"c":[{"v":"d","f":null},{"v":3,"f":null}]},
+				{"c":[{"v":"e","f":null},{"v":2,"f":null}]},
+				{"c":[{"v":"f","f":null},{"v":6,"f":null}]},
+				{"c":[{"v":"g","f":null},{"v":8,"f":null}]},
+				{"c":[{"v":"h","f":null},{"v":5,"f":null}]},
+				{"c":[{"v":"i","f":null},{"v":2,"f":null}]},
+				{"c":[{"v":"j","f":null},{"v":1,"f":null}]},
+				{"c":[{"v":"k","f":null},{"v":0,"f":null}]},
+				{"c":[{"v":"l","f":null},{"v":0,"f":null}]},
+				{"c":[{"v":"m","f":null},{"v":13,"f":null}]},
+				{"c":[{"v":"n","f":null},{"v":4,"f":null}]},
+				{"c":[{"v":"o","f":null},{"v":5,"f":null}]},
+				{"c":[{"v":"p","f":null},{"v":0,"f":null}]},
+				{"c":[{"v":"q","f":null},{"v":6,"f":null}]},
+				{"c":[{"v":"r","f":null},{"v":5,"f":null}]},
+				{"c":[{"v":"s","f":null},{"v":8,"f":null}]},
+				{"c":[{"v":"t","f":null},{"v":2,"f":null}]},
+				{"c":[{"v":"u","f":null},{"v":7,"f":null}]},
+				{"c":[{"v":"v","f":null},{"v":2,"f":null}]},
+				{"c":[{"v":"w","f":null},{"v":9,"f":null}]},
+				{"c":[{"v":"x","f":null},{"v":12,"f":null}]},
+				{"c":[{"v":"y","f":null},{"v":3,"f":null}]},
+				{"c":[{"v":"z","f":null},{"v":4,"f":null}]}
+			]
+}
