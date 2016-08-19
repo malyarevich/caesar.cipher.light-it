@@ -1,0 +1,11 @@
+body {
+	font-family: 'Microsoft Yahei', sans-serif;
+	background: #eee;
+	margin: 0 0 20px 0;
+
+}
+
+.red-star {
+	color: #e33;
+	font-size: 6pt;
+}
