@@ -1,5 +1,3 @@
-
-
 $(document).ready (function () {
 	//google.charts
 
@@ -31,21 +29,27 @@ $(document).ready (function () {
 
 	}
 
-	function funcBefore () {
-		$("#resultText").text ("Processing...")
+	function funcBeforeEncrypt () {
+		$("#resultText").text ("Processing...");
 	}
 
-	function funcBefore2 () {
-		$("#resultText").text ("")
+	function funcBeforeMoveTo () {
+		$("#resultText").text ("");
 	}
 
-	function funcSuccess (data) {
+	function funcSuccessEncrypt (data) {
 		$("#resultText").text (data);
+
+		$("#answer").hide();
+		$("#freqDiagram").show();
 		drawChart();
 	}
 
-	function funcSuccess2 (data) {
+	function funcSuccessMoveTo (data) {
 		$("#sourceText").val (data);
+
+		$("#answer").hide();
+		$("#freqDiagram").hide();
 		drawChart();
 	}
 
@@ -55,8 +59,8 @@ $(document).ready (function () {
 			type: "POST",
 			data: ({sourceText: $("#sourceText").val(), shift: $("#shift").val()}),
 			dataType: "html",
-			beforeSend: funcBefore,
-			success: funcSuccess
+			beforeSend: funcBeforeEncrypt,
+			success: funcSuccessEncrypt
 		});
 	});	
 
@@ -90,6 +94,8 @@ $(document).ready (function () {
 				$("#pc5").html(data[4].percent + "%");
 				$("#rs5").html(data[4].result);
 
+				$("#answer").show();
+				$("#freqDiagram").show();
 				drawChart();
 			}
 		});
@@ -101,8 +107,8 @@ $(document).ready (function () {
 			type: "POST",
 			data: ({resultText: $("#resultText").val()}),
 			dataType: "html",
-			beforeSend: funcBefore2,
-			success: funcSuccess2
+			beforeSend: funcBeforeMoveTo,
+			success: funcSuccessMoveTo
 		});
 	});
 

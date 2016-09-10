@@ -1,4 +1,4 @@
-<div class="col-md-12" role="main">
+<div class="col-md-12" role="main" id="freqDiagram" style="display: none;">
 	<!-- frequency diagram frame-->
 	<div class="panel panel-default">
 		<div class="panel-body" id="indexInfo">

@@ -1,4 +1,4 @@
-<div class="col-md-12" role="main">
+<div class="col-md-12" role="main" id="answer" style="display: none;">
 	<!-- Answer frame-->
 	<div class="panel panel-default">
 		<div class="panel-body" id="indexInfo">

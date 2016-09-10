@@ -40,7 +40,7 @@
 				<div class="col-xs-4 col-sm-5 col-md-5">
 					<div class="form-group">
 						<label for="sourceText">Source Text:</label>
-						<textarea class="form-control" rows="15" id="sourceText"></textarea>
+						<textarea class="form-control" rows="15" id="sourceText" placeholder="Input your text here"></textarea>
 					</div>
 				</div>
 
@@ -53,7 +53,7 @@
 					<div class="btn-group btn-group-md .btn-group-vertical btn-block">
 						<button type="submit" class="btn btn-success btn-md btn-block" id="encrypt">Encrypt</button>
 						<button type="submit" class="btn btn-danger btn-dm btn-block" id="descrypt">Decrypt</button>
-						<button type="submit" class="btn btn-info btn-dm btn-block" id="moveto">Copy to source</button>
+						<button type="submit" class="btn btn-info btn-dm btn-block" id="moveto">Move to source</button>
 					</div>
 				</div>
 
@@ -61,7 +61,7 @@
 				<div class="col-xs-4 col-sm-5 col-md-5">
 					<div class="form-group">
 						<label for="resultText">Result Text:</label>
-						<textarea class="form-control" rows="15" id="resultText" disabled></textarea>
+						<textarea class="form-control" rows="15" id="resultText" placeholder="Your result you will can see here" disabled></textarea>
 					</div>
 				</div>
 
