@@ -1,3 +1,3 @@
 demo: http://light-it.zzz.com.ua/
 # Light-it
-Test task for Light-IT.
+Test task of Light-IT.
